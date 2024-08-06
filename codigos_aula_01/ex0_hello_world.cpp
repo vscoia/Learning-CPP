@@ -1,8 +1,7 @@
-
 #include <iostream>
+using namespace std;
 
 int main() {
-  std::cout << "Parabéns, Chu!" << "\n";
+  cout << "Parabéns, Chu!" << endl;
   return 0;
 }
-
