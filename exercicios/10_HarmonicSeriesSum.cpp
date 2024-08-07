@@ -7,20 +7,24 @@
  */
 #include <iostream>
 using namespace std;
- 
+
 int main() {
    int maxDenominator;  // max denominator to sum to
    double sum = 0.0;    // For accumulating sum in double
 
    // Prompt user for the maxDenominator
-   ......
- 
+   cout << "Enter the value of n:  ";
+   cin >> maxDenominator;
+
    int denominator = 1;
    while (denominator <= maxDenominator) {
       // Beware that int/int gives int
-      ......
+      sum += 1.0 / denominator;
       ++denominator;  // next
    }
+
    // Print the sum
-   ......
+   cout << "The sum of the harmonic series " << maxDenominator << " is " << sum << endl;
+   
+   return 0;
 }
