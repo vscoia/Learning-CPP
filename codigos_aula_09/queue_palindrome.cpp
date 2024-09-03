@@ -27,8 +27,8 @@ int main() {
 	palindrome = false;
     }
   if (palindrome)
-    cout << "String é Palindrome" << endl;
+    cout << "String is a palindrome" << endl;
   else
-    cout << "String não é palindrome" << endl;
+    cout << "String is not palindrome" << endl;
   return 0; 
 }
